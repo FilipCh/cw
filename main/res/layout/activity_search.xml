@@ -1,0 +1,124 @@
+<!--  Filip Chojnacki S1712859  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Filip Chojnacki (S1712859)"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#d4d4d4"
+            android:hint="Select Start Date..."
+            android:padding="15dp"
+            android:textColor="#897"
+            android:textColorHint="#090"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/enddate"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#d4d4d4"
+            android:hint="Select End Date..."
+            android:padding="15dp"
+            android:textColor="#897"
+            android:textColorHint="#090"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date"
+            android:text="Search"
+            app:iconTint="#1D1B5E" />
+
+        <TextView
+            android:id="@+id/north"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/south"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/east"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/west"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+
+
+        <TextView
+            android:id="@+id/deep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/shallow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/magnitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="No data"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>
